@@ -2,9 +2,12 @@ ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 
-class ActiveSupport::TestCase
-  # Setup all fixtures in test/fixtures/*.yml for all tests in alphabetical order.
-  fixtures :all
+# Configure test features. Comment out the ones you don't want.
 
-  # Add more helper methods to be used by all tests here...
+require 'mocha/mini_test'                 # Mocha is a mocking and stubbing library for Ruby
+require 'support/minitest_reporters'      # Create customizable MiniTest output formats
+require 'support/database_rewinder'       # Minimalist's tiny and ultra-fast database cleaner
+
+class ActiveSupport::TestCase
+  fixtures :all
 end
