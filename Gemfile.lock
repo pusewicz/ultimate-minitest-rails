@@ -1,3 +1,11 @@
+PATH
+  remote: .
+  specs:
+    ultimate-minitest-rails (0.2.0)
+      database_rewinder
+      minitest-around
+      minitest-reporters
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -162,3 +170,7 @@ DEPENDENCIES
   spring
   sqlite3
   terminal-notifier-guard
+  ultimate-minitest-rails!
+
+BUNDLED WITH
+   1.10.6

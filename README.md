@@ -7,9 +7,10 @@ This projects aims to give you the best out-of-the box experience with Minitest 
 Usage
 -----
 
-* Clone the project
-* Copy wanted features from [`test/support`](/test/support)
-* Add wanted gems to your [`Gemfile`](/Gemfile)
+* Add `gem 'ultimate-minitest-rails'` to `Gemfile`
+* Add `require 'ultimate-minitest-rails/support/[feature]'`
+
+See [`test_helper.rb`](blob/master/test/test_helper.rb) for available features.
 
 Contributing
 ------------

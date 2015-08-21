@@ -10,6 +10,7 @@ group :development, :test do
   gem 'terminal-notifier-guard', require: false # Mac OS X test result notifications
   gem 'rb-fsevent', require: false              # Guard filesystem listener for Guard
   gem 'database_rewinder'                       # Minimalist's tiny and ultra-fast database cleaner
+  gem 'ultimate-minitest-rails', path: '.'
 end
 
 group :test do
