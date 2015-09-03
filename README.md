@@ -10,7 +10,7 @@ Usage
 * Add `gem 'ultimate-minitest-rails'` to `Gemfile`
 * Add `require 'ultimate-minitest-rails/support/[feature]'`
 
-See [`test_helper.rb`](blob/master/test/test_helper.rb) for available features.
+See [`test_helper.rb`](test/test_helper.rb) for available features.
 
 Contributing
 ------------
