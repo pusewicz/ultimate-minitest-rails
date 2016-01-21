@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.1'
+gem 'rails', '>= 4.2.2'
 gem 'sqlite3'
 
 group :development, :test do
@@ -18,3 +18,6 @@ group :test do
   gem 'minitest-around', require: false         # Around block for minitest
   gem 'mocha', require: false                   # Mocha is a mocking and stubbing library for Ruby
 end
+
+gem 'nokogiri', '>= 1.6.7.2'
+gem 'rack', '>= 1.6.2'
