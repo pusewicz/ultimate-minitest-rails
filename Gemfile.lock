@@ -68,7 +68,7 @@ GEM
       shellany (~> 0.0)
       thor (>= 0.18.1)
     guard-compat (1.2.1)
-    guard-minitest (2.4.4)
+    guard-minitest (2.4.6)
       guard-compat (~> 1.2)
       minitest (>= 3.0)
     hitimes (1.2.2)
