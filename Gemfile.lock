@@ -97,7 +97,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    mocha (1.1.0)
+    mocha (1.7.0)
       metaclass (~> 0.0.1)
     nenv (0.2.0)
     nokogiri (1.8.5)
