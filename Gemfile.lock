@@ -52,7 +52,7 @@ GEM
     coderay (1.1.0)
     concurrent-ruby (1.0.0)
     crass (1.0.4)
-    database_rewinder (0.5.1)
+    database_rewinder (0.9.0)
     erubis (2.7.0)
     ffi (1.9.25)
     formatador (0.2.5)
