@@ -19,4 +19,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'database_rewinder'
   s.add_dependency 'minitest-reporters'
   s.add_dependency 'minitest-around'
+  s.add_dependency 'mocha'
 end
