@@ -87,7 +87,7 @@ GEM
     minitest (5.12.2)
     minitest-around (0.5.0)
       minitest (~> 5.0)
-    minitest-reporters (1.4.1)
+    minitest-reporters (1.4.2)
       ansi
       builder
       minitest (>= 5.0)
