@@ -1,6 +1,6 @@
 # Ultimate Minitest Configuration for Rails
 
-![Ultimate Minitest Rails](http://cloudapp.layer22.com/image/0v2y0c0v0D0V/Screen%20Shot%202015-04-18%20at%2016.29.31.png)
+![Ultimate Minitest Rails](https://raw.githubusercontent.com/pusewicz/ultimate-minitest-rails/master/assets/screenshot.png)
 
 This projects aims to give you the best out-of-the box experience with Minitest for Rails applications.
 
